@@ -1,0 +1,19 @@
+1- domain: https://www.amazon.com/
+IP Address : 23.37.18.79
+Location : United States, California
+
+2- domain: https://www.ikea.com/
+IP Address : 104.18.11.81
+Location : United States, California
+
+3- domain: https://www.ebay.com/
+IP Address : 23.216.149.143
+Location : United States, California
+
+4- domain: https://www.bestbuy.com/
+IP Address : 23.36.20.230
+Location : United States, California
+
+5- domain: https://www.onbuy.com/
+IP Address : 104.20.45.131
+Location : United States, California
