@@ -1,0 +1,17 @@
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# tcpdump -c 10
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:28:59.858027 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > 109.107.243.3.33163: Flags [P.], seq 734536417:734536605, ack 2544524005, win 513, length 188
+20:28:59.878454 IP 109.107.243.3.33163 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 4294966932, win 250, length 36
+20:28:59.878455 IP 109.107.243.3.33163 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4294967004, win 250, length 0
+20:28:59.878642 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > 109.107.243.3.33163: Flags [P.], seq 188:224, ack 37, win 513, length 36
+20:28:59.893306 IP 109.107.243.3.33163 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 4294967004, win 250, length 36
+20:28:59.893431 IP 109.107.243.3.33163 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4294967040, win 255, length 0
+20:28:59.893495 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > 109.107.243.3.33163: Flags [P.], seq 224:260, ack 73, win 513, length 36
+20:28:59.916075 IP 109.107.243.3.33163 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4294967076, win 255, length 0
+20:28:59.916132 IP 109.107.243.3.33163 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 73:109, ack 4294967076, win 255, length 36
+20:28:59.916270 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > 109.107.243.3.33163: Flags [P.], seq 260:296, ack 109, win 513, length 36
+10 packets captured
+30 packets received by filter
+0 packets dropped by kernel
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~#
